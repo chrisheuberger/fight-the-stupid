@@ -24,8 +24,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	display: block;
 }
 
-body {
+html, body {
 	line-height: 1;
+	background: #101C24;
 }
 
 ol, ul {
@@ -139,6 +140,10 @@ em, i {
 
 p {
 	margin: 0 0 2em 0;
+}
+
+small {
+	font-sze: .85em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -722,7 +727,10 @@ header p {
 	color: rgba(255, 255, 255, 0.75);
 	text-align: center;
 	cursor: default;
-	height: 25vh;
+}
+
+#banner img.header-pic {
+	width: 70%;
 }
 
 #banner input, #banner select, #banner textarea {
@@ -846,7 +854,7 @@ body.is-loading #banner > .inner {
 	-ms-align-items: stretch;
 	align-items: stretch;
 	-ms-flex-pack: end;
-	height: 60vh;
+	height: 50vh;
 	position: relative;
 }
 
@@ -1311,8 +1319,7 @@ mark {
 /* Footer */
 
 #footer {
-	padding: .5em;
-	height: 5vh;
+	padding: 2em;
 	background: #101C24;
 	text-align: center;
 }
