@@ -63,7 +63,7 @@ function GetValue() {
   );
 
   var orgarray = new Array(
-  	"Wounded Warriors Project",
+  	"Wounded Warrior Project",
   	"National Women’s Law Center",
   	"Campaign Zero",
    	"Border Angels",
