@@ -91,7 +91,7 @@ function GetValue() {
   );
 
   var orglinkarray = new Array(
-    "http://www.joincampaignzero.org/",
+    "https://www.woundedwarriorproject.org/",
     "https://nwlc.org/",
   	"http://www.joincampaignzero.org/",
   	"http://www.borderangels.org/",
@@ -119,7 +119,7 @@ function GetValue() {
   );
 
   var descarray = new Array(
-  	"Advocates for policy solutions to end police violence in America.",
+  	"Empowering injured veterans and their families.",
   	"Helping enact policies and laws, for over 40 years, that help women and families.",
   	"Advocates for policy solutions to end police violence in America.",
   	"Advocates for immigration reform and social justice focusing on the U.S.–Mexico border.",
