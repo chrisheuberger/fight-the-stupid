@@ -115,7 +115,7 @@ function GetValue() {
   	"http://www.embraceme.org/",
   	"http://civiliansinconflict.org/",
   	"http://www.naacp.org/",
-  	"now.org/"
+  	"http://now.org"
   );
 
   var descarray = new Array(
