@@ -120,7 +120,7 @@ function GetValue() {
 
   var descarray = new Array(
   	"Advocates for policy solutions to end police violence in America.",
-  	"Helping enact of policies and laws, for over 40 years, that help women and families.",
+  	"Helping enact policies and laws, for over 40 years, that help women and families.",
   	"Advocates for policy solutions to end police violence in America.",
   	"Advocates for immigration reform and social justice focusing on the U.S.–Mexico border.",
   	"Working to protect wildlife and the planet for healthier communities and for cleaner energy options.",
