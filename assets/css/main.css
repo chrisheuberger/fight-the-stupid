@@ -730,7 +730,15 @@ header p {
 }
 
 #banner img.header-pic {
-	width: 70%;
+	width: 60%;
+}
+
+@media screen and (max-width: 736px) {
+
+	#banner img.header-pic {
+		width: 100%;
+	}
+
 }
 
 #banner input, #banner select, #banner textarea {
@@ -756,6 +764,18 @@ header p {
 	font-size: 5em;
 	line-height: 1.45;
 	margin: 0 0 0.125em 0;
+}
+
+#banner h2 {
+	font-size: 1.25em;
+}
+
+@media screen and (max-width: 736px) {
+
+	#banner h2 {
+		font-size: 1em;
+	}
+
 }
 
 #banner h3 {
@@ -802,7 +822,7 @@ body.is-loading #banner > .inner {
 @media screen and (max-width: 736px) {
 
 	#banner {
-		padding: 5em 1.5em 4em 1.5em;
+		padding: 0;
 	}
 
 	#banner h1 {
@@ -855,7 +875,16 @@ body.is-loading #banner > .inner {
 	align-items: stretch;
 	-ms-flex-pack: end;
 	height: 50vh;
+	min-height: 400px;
 	position: relative;
+}
+
+@media screen and (max-width: 736px) {
+
+	.post {
+	  min-height: 100px;
+	}
+
 }
 
 body.is-ie .post {
@@ -874,7 +903,7 @@ body.is-ie .post {
 	width: 50%;
 	display: block;
 	background: #FFF;
-	padding: 8em;
+	padding: 4em;
 	text-align: right;
 	position: relative;
 }
@@ -1016,13 +1045,22 @@ body.is-ie .post {
 }
 
 .post.style1 h2.highlight {
-	font-size: 3em;
+	font-size: 2.25em;
 	line-height: 1.4;
 	position: absolute;
 	top: 20%;
 	left: 5%;
 	padding: 10px;
 	margin: 10px;
+	z-index: 1;
+}
+
+@media screen and (max-width: 736px) {
+
+	.post.style1 h2.highlight {
+		font-size: 1.6em;
+	}
+
 }
 
 mark {
