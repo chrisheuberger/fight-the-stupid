@@ -131,7 +131,7 @@ function GetValue() {
   	"Provides technical assistance to governments for their vaccine delivery programs.",
   	"Advocating for a dramatic reduction in gun deaths and injuries.",
   	"Works on building a world without war.",
-  	"Resources on sexual and reproductive health.",
+  	"Providing resources, care, and reproductive health services for over 100 years.",
   	"Advancing the rights of people with disabilities through advocacy, training, education, and public policy.",
   	"Information on the law, and the employment and public benefits rights of immigrants.",
   	"A network of writing and tutoring centers for children and teens.",
