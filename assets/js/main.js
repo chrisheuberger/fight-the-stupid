@@ -31,7 +31,8 @@ function GetValue() {
   	"I know more about ISIS than the generals do, believe me... I would bomb the shit out of them.",
   	"It used to be: ‘To the victors go the spoils’... But I always said: Take the oil.",
   	"Laziness is a trait in blacks. It really is, I believe that. It’s not anything they can control.",
-  	"I would like to think she would find another career or find another company if that was the case."
+  	"I would like to think she would find another career or find another company if that was the case.",
+    "I’m going to open up our libel laws so when they write purposely negative and horrible and false articles, we can sue them and win lots of money."
   );
 
   var quotelinkarray = new Array(
@@ -59,7 +60,8 @@ function GetValue() {
   	"https://www.youtube.com/watch?v=Q26ikbTlQn0",
   	"http://blogs.wsj.com/washwire/2016/09/08/trumps-take-the-oil-plan-would-violate-geneva-conventions-experts-say/",
   	"https://www.washingtonpost.com/news/fact-checker/wp/2016/07/25/did-donald-trump-really-say-those-things/",
-  	"http://www.usatoday.com/story/opinion/2016/08/01/ailes-trump-sexual-harassment-fox-news-women-gretchen-kelly-greta-news-column/87915454/"
+  	"http://www.usatoday.com/story/opinion/2016/08/01/ailes-trump-sexual-harassment-fox-news-women-gretchen-kelly-greta-news-column/87915454/",
+    "http://www.politico.com/blogs/on-media/2016/02/donald-trump-libel-laws-219866"
   );
 
   var orgarray = new Array(
@@ -71,7 +73,7 @@ function GetValue() {
   	"DonorsChoose.org",
   	"International Rescue Committee",
   	"American Refugee Committee",
-  	"350.org",
+  	"Natural Resources Defense Council",
   	"UNICEF",
   	"The Brady Campaign",
   	"International Peace Bureau",
@@ -87,7 +89,8 @@ function GetValue() {
   	"Embrace the Middle East",
   	"Center for Civilians in Conflict",
   	"NAACP",
-  	"National Organization for Women"
+  	"National Organization for Women",
+    "ProPublica"
   );
 
   var orglinkarray = new Array(
@@ -99,7 +102,7 @@ function GetValue() {
   	"https://www.donorschoose.org/",
   	"https://www.rescue.org/article/how-help-syrian-refugees",
   	"http://arcrelief.org/",
-  	"https://350.org/",
+  	"https://www.nrdc.org/",
   	"https://www.unicef.org/immunization/",
   	"http://www.bradycampaign.org",
   	"http://www.ipb.org/",
@@ -115,7 +118,8 @@ function GetValue() {
   	"http://www.embraceme.org/",
   	"http://civiliansinconflict.org/",
   	"http://www.naacp.org/",
-  	"http://now.org"
+  	"http://now.org",
+    "https://www.propublica.org/"
   );
 
   var descarray = new Array(
@@ -127,7 +131,7 @@ function GetValue() {
   	"Allowing individuals to donate directly to public school classroom projects.",
   	"Responding to the world’s worst humanitarian crises and helping people to survive and rebuild their lives.",
   	"Providing humanitarian assistance to millions of beneficiaries for over 35 years.",
-  	"Raising awareness of the need to decrease carbon dioxide concentration in the atmosphere.",
+  	"Protecting the planet’s wildlife, wild places, and natural systems on which all life depends.",
   	"Providing technical assistance to governments for their vaccine delivery programs.",
   	"Advocating for a dramatic reduction in gun deaths and injuries.",
   	"Striving to build a world without war.",
@@ -143,7 +147,8 @@ function GetValue() {
   	"Tackling poverty and injustice in the Middle East.",
   	"Focused on helping civilians caught in the midst of armed conflict.",
   	"Ensuring political, educational, social, and economic equality and fighting against race-based discrimination.",
-  	"The largest organization of feminist activists in the United States."
+  	"The largest organization of feminist activists in the United States.",
+    "Producing independent investigative journalism in the public interest."
   );
 
   var random = Math.floor(Math.random() * quotearray.length);

@@ -880,7 +880,7 @@ body.is-loading #banner > .inner {
 @media screen and (max-width: 736px) {
 
 	.post {
-	  min-height: 100px;
+	  min-height: 125px;
 	}
 
 }
@@ -1056,7 +1056,7 @@ body.is-ie .post {
 @media screen and (max-width: 736px) {
 
 	.post.style1 h2.highlight {
-		font-size: 1.6em;
+		font-size: 1.4em;
 	}
 
 }
