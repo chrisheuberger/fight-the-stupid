@@ -1065,14 +1065,15 @@ mark {
 	background-color: #fff;
 }
 
-.quotemark::before {
-	content: '“';
-	font-family: "Domine", serif;
-	font-size: 6em;
-	line-height: .25;
-	margin-bottom: -.35em;
-	color: white;
-	display: block;
+svg {
+	position: absolute;
+  top: 20px;
+  left: 40px;
+	z-index: 1;
+}
+
+path {
+  fill: #fff;
 }
 
 .post.style1 blockquote {
