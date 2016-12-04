@@ -1061,19 +1061,19 @@ body.is-ie .post {
 
 }
 
-mark {
-	background-color: #fff;
-}
-
-svg {
+svg.quotemark {
 	position: absolute;
   top: 20px;
   left: 40px;
 	z-index: 1;
 }
 
-path {
+path.quotemark-outline {
   fill: #fff;
+}
+
+mark {
+	background-color: #fff;
 }
 
 .post.style1 blockquote {
