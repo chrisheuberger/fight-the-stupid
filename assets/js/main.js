@@ -8,7 +8,7 @@ function GetValue() {
 
   var quotearray = new Array(
   	"He’s not a war hero. He’s a war hero because he was captured. I like people that weren’t captured.",
-  	"You know, it really doesn’t matter what the media write as long as you’ve got a young, and beautiful piece of ass.",
+  	"You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass.",
   	"Our great African-American President hasn’t exactly had a positive impact on the thugs who are so happily and openly destroying Baltimore.",
   	"You have people coming in, and I’m not just saying Mexicans, I’m talking about people that are from all over that are killers and rapists and they’re coming into this country.",
   	"The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
