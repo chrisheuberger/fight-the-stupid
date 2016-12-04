@@ -1056,7 +1056,7 @@ body.is-ie .post {
 @media screen and (max-width: 736px) {
 
 	.post.style1 h2.highlight {
-		font-size: 1.4em;
+		font-size: 1.1em;
 	}
 
 }
@@ -1066,6 +1066,16 @@ svg.quotemark {
   top: 20px;
   left: 40px;
 	z-index: 1;
+}
+
+@media screen and (max-width: 736px) {
+
+	svg.quotemark {
+		height: 200px;
+    width: 200px;
+    left: 20px;
+	}
+
 }
 
 path.quotemark-outline {
@@ -1340,7 +1350,7 @@ mark {
 @media screen and (max-width: 736px) {
 
 	.post .content {
-		padding: 2em 1.5em 3em 1.5em;
+		padding: 2em 1.5em 1em 1.5em;
 	}
 
 	.post .content header h2 {
